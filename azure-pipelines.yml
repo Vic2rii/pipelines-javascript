@@ -25,5 +25,5 @@ steps:
   inputs:
     target_org: '$(Alias)'
     source_directory: 'salesforce'
-    isManagedPackageComponentsToBeExcluded: true
-    isUnzipEnabled: true
+    isManagedPackageComponentsToBeExcluded: false
+    isUnzipEnabled: false
