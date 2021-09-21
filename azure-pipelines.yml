@@ -24,6 +24,6 @@ steps:
 - task: sfpowerscript-exportsourcefromorg-task@3
   inputs:
     target_org: '$(Alias)'
-    source_directory: 'metadata'
+    source_directory: 'salesforce'
     isManagedPackageComponentsToBeExcluded: true
     isUnzipEnabled: true
